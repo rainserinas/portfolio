@@ -1,0 +1,394 @@
+/* Start of reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of reset css */
+
+body {
+    background-color: #e8e8e8;
+}
+
+div.main-container {
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+div.content {
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 45px;
+    clear: both;
+}
+
+div.header-container {
+    float: left;
+    width: 50%;
+}
+
+div.nav-container {
+    float: left;
+    width: 50%;
+}
+
+p.header {
+    font-size: 37.91px;
+    padding-left: 28px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.navbar {
+    width: 600px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    /*background: url('../images/nav.png');*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*float: right;*/
+    border: 1px solid;
+    border-color: #afafaf;
+}
+
+.navbar ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #525252;
+    padding: 12px 12px 12px 12px;
+}
+
+.nav-container {
+    margin-bottom: 40px;
+}
+
+.slider-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.description-div {
+    margin-top: 65px;
+}
+
+.description-div p {
+    padding-left: 28px;
+}
+
+.package {
+    clear: both;
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.design {
+    width: 25%;
+    float: left;
+}
+
+.par-div {
+    margin-top: 15px;
+}
+
+.btn-image {
+    margin-top: 25px;
+}
+
+.extra-image-3 {
+    margin-top: 30px;
+}
+
+.extra-image-4 {
+    margin-top: 45px;
+}
+
+.design-description {
+    margin-top: 15px;
+}
+
+.about-div {
+    padding-top: 80px;
+    clear: both;
+}
+
+.about {
+    width: 45%;
+    float: left;
+    padding-bottom: 150px;
+    padding-left: 30px;
+}
+
+div.about p {
+    margin-top: 25px;
+}
+
+.latest-div {
+    clear: both;
+    margin-top: 25px;
+}
+
+.latest-work-img-div {
+    width: 25%;
+    float: left;
+}
+
+div.about-us h2 {
+    font-weight: bolder;
+}
+
+div.latest-work h2 {
+    font-weight: bolder;
+}
+
+.latest {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.archive {
+    background: url('../images/archive-bg.png');
+    background-size: cover;
+    margin-top: 200px;
+    height: 355px;
+    clear: both;
+    text-align: center;
+}
+
+.archive-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.archive-div {
+    margin-top: 40px;
+    width: 33%;
+    float: left;
+    color: white;
+}
+
+.recent-post {
+    list-style-image: url('../images/check.png');
+}
+
+.recent-post li {
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.arch {
+    list-style-image: url('../images/check.png');
+    padding-left: 140px;
+}
+
+.arch li {
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.twitter-box {
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+.footer {
+    background: url('../images/footer-background.png');
+    background-size: cover;
+    height: 70px;
+}
+
+.footer-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    padding-top: 30px;
+    color: #aaaaaa;
+    font-size: 16px;
+    clear: both;
+}
+
+.copyright, .icons {
+    width: 50%;
+    float: left;
+}
+
+.icons {
+    padding-top: 20px;
+    position: relative;
+    left: 270px;
+}
+
+/* Media Queries */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    .div-content {
+        max-width: 100%;
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .slider-img {
+        margin-top: 20px;
+    }
+
+    .design {
+        width: 100%;
+        float: left;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .latest-work-img-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .archive {
+        display: none;
+    }
+
+    .copyright, .icons {
+        width: 100%;
+        display: none;
+    }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width: 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width: 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width: 1224px) {
+    .navbar {
+        display: none;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width: 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+}
+
+
+
+

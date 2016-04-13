@@ -1,0 +1,388 @@
+/* Start of reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of reset css */
+
+div.container-1 {
+    background: url('../images/image-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1020px;
+    clear: both;
+}
+
+.logo-div, .header-div, .menu-div {
+    width: 33%;
+    float: left;
+}
+
+.logo-div img {
+    margin-top: 91px;
+    padding-left: 216px;
+}
+
+.header-div img {
+    margin-top: 430px;
+}
+
+.menu-div img {
+    margin-top: 84px;
+    margin-left: 180px;
+}
+
+div.container-2 {
+    height: 700px;
+}
+
+div.container-2 img {
+    margin-left: 206px;
+    margin-top: 115px;
+    clear: both;
+}
+
+.award-div, .personal-div {
+    width: 50%;
+    float: left;
+}
+
+.title-p {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #a0a0a0;
+    margin-top: 170px;
+}
+
+.desc1-p {
+    margin-top: 45px;
+    font-size: 16px;
+    color: #a0a0a0;
+    line-height: 28px;
+}
+
+.desc2-p {
+    color: #a0a0a0;
+    margin-top: 45px;
+    line-height: 28px;
+}
+
+div.personal-div img {
+    margin-left: 0px;
+    margin-top: 98px;
+    cursor: pointer;
+}
+
+div.container-3 {
+    height: 670px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+div.container-3 p:first-child {
+    padding-top: 120px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p.container-3-text {
+    margin-top: 35px;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+
+.square-div-wrapper {
+    clear: both;
+    margin: 0 auto;
+    margin-top: 65px;
+    width: 70%;
+}
+
+.sqaure-div {
+    width: 25%;
+    float: left;
+}
+
+div.container-4 {
+    background: url('../images/latestwork-bg.png');
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clear: both;
+
+}
+
+.workexp-wrapper {
+    margin: 0 auto;
+    width: 55%;
+    padding-top: 125px;
+}
+
+.workexp-div, .education-div {
+    background: url('../images/exp-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    float: left;
+    height: 590px;
+    /*color: #ffffff;*/
+}
+
+.p-wrapper {
+    margin: 40px;
+    padding-top: 60px;
+}
+
+.workexp-p1 {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.workexp-p2 {
+    padding-top: 65px;
+    font-weight: bolder;
+}
+
+.workexp-p3 {
+    padding-top: 20px;
+}
+
+.workexp-p4 {
+    padding-top: 15px;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+
+.workexp-p5 {
+    padding-top: 35px;
+    font-weight: bolder;
+}
+
+.workexp-p6 {
+    padding-top: 30px;
+}
+
+.workexp-p7 {
+    padding-top: 15px;
+    line-height: 23px;
+}
+
+.container-5 {
+    height: 950px;
+    text-align: center;
+    clear: both;
+}
+
+div.container-5 p:first-child {
+    padding-top: 115px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.latest-work-add-p {
+    padding-top: 60px;
+    font-size: 16px;
+}
+
+.latest-div-wrapper {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.latest-div {
+    width: 50%;
+    float: left;
+}
+
+.container-6 {
+    background-color: #64cbc0;
+    height: 700px;
+}
+
+.signature-div {
+    padding: 200px;
+    padding-top: 150px;
+    width: 25%;
+}
+
+.signature-text {
+    padding-top: 45px;
+}
+
+div.signature-div p {
+    line-height: 28px;
+}
+
+.sign {
+    padding-top: 50px;
+}
+
+.signature-name {
+    padding-top: 30px;
+}
+
+.container-7 {
+    background: url('../images/latestwork-bg.png');
+    background-size: cover;
+    height: 970px;
+    clear: both;
+}
+
+
+.cont-7-wrapper{
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 125px;
+    clear:both;
+}
+
+.email-input, .contact-details {
+    width: 50%;
+    float:left;
+
+}
+
+.contact-details{
+    line-height: 30px;
+}
+
+.email-input{
+    background: url('../images/input-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+}
+
+.form-wrapper{
+    padding: 40px;
+}
+
+.input-title{
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.forms{
+    padding-top: 60px;
+}
+
+input , textarea{
+    border: 1px solid white;
+    -webkit-box-shadow:
+            inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+            inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+            inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    width: 475px;
+    padding-left: 20px;
+}
+
+.text-input{
+    height: 205px;
+}
+
+.btn-submit{
+    background-color: #ff2b4a;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    float: right;
+}
+
+.address-div , .phone-div , .web-div{
+    background: url('../images/input-bg.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+
+.para-wrapper{
+    padding: 45px;
+}
+
+.para-wrapper p:first-child{
+    font-weight: bolder;
+}
+
+.para-wrapper-title{
+    padding-bottom: 40px;
+}
+
+.container-8{
+    background: url('../images/black-bg.png');
+    height: 168px;
+    color: white;
+    text-align: center;
+}
+
+.footer-img-wrapper{
+    padding-top: 60px;
+}
+
+.footer-img-wrapper img{
+    margin-right: 20px;
+}
+
+.copyright{
+    padding-top: 18px;
+}
+
+
+
+
+
